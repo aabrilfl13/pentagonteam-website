@@ -213,7 +213,129 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+/* HOME */
+.home {
+  height: 100vh;
+  background: url('assets/img/PENTAGON-IMAGOTIPO-PENTAGONO-TRANSPARENCY.png');
+  filter: grayscale(25%);
 
+  background-size: 72vh;
+  /* background-size: cover; */
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+}
+
+.home .title-text {
+  font-size: 7rem;
+  color: var(--yellow);
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+.home .title-text span {
+  font-weight: 800;
+}
+
+.home p {
+  color: var(--dark-gray);
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+
+/* Down arrows */
+.home .arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.home .arrows path {
+  stroke: var(--yellow);
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+      opacity: 0
+  }
+
+  40% {
+      opacity: 1
+  }
+
+  80% {
+      opacity: 0
+  }
+
+  100% {
+      opacity: 0
+  }
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+  {
+  0% {
+      opacity: 0
+  }
+
+  40% {
+      opacity: 1
+  }
+
+  80% {
+      opacity: 0
+  }
+
+  100% {
+      opacity: 0
+  }
+}
+
+.home .arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+  /* Safari 和 Chrome */
+}
+
+.home .arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+  /* Safari 和 Chrome */
+}
+
+.home .arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  /* Safari 和 Chrome */
+}
 
 
 
