@@ -16,7 +16,7 @@ export const Nav = () => {
 		<nav>
 			<a
 				href="#"
-				onClick={() => setActiveNav("#experience")}
+				onClick={() => setActiveNav("#")}
 				className={activeNav === "#" ? "active" : ""}
 			>
 				<AiOutlinePlayCircle />
