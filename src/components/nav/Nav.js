@@ -1,88 +1,54 @@
-import React from "react";
+import { React, useState } from "react";
+import {
+	AiOutlineAppstore,
+	AiOutlineBook,
+	AiOutlinePlayCircle,
+	AiOutlineUser,
+} from "react-icons/ai";
+import { IoLocationOutline } from "react-icons/io5";
+
+import "./nav.css";
 
 export const Nav = () => {
-	return <div>Nav</div>;
+	const [activeNav, setActiveNav] = useState("#");
+
+	return (
+		<nav>
+			<a
+				href="#"
+				onClick={() => setActiveNav("#experience")}
+				className={activeNav === "#" ? "active" : ""}
+			>
+				<AiOutlinePlayCircle />
+			</a>
+			<a
+				href="#about"
+				onClick={() => setActiveNav("#about")}
+				className={activeNav === "#about" ? "active" : ""}
+			>
+				<AiOutlineUser />
+			</a>
+			<a
+				href="#experience"
+				onClick={() => setActiveNav("#experience")}
+				className={activeNav === "#experience" ? "active" : ""}
+			>
+				<AiOutlineBook />
+			</a>
+			<a
+				href="#services"
+				onClick={() => setActiveNav("#services")}
+				className={activeNav === "#services" ? "active" : ""}
+			>
+				<AiOutlineAppstore />
+			</a>
+			<a
+				href="#contact"
+				onClick={() => setActiveNav("#contact")}
+				className={activeNav === "#contact" ? "active" : ""}
+			>
+				<IoLocationOutline />
+			</a>
+		</nav>
+	);
 };
-
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
-// import React from "react";
-// import { useState, useEffect } from "react";
-// import logo from "../assets/img/PENTAGON-IMAGOTIPO-01.png";
-
-// export const Nav = () => {
-// 	const [activeLink, setActiveLink] = useState("home");
-// 	const [scrolled, seScrolled] = useState(false);
-
-// 	useEffect(() => {
-// 		const onScroll = () => {
-// 			if (window.scrollY > 50) {
-// 				seScrolled(true);
-// 			} else {
-// 				seScrolled(false);
-// 			}
-// 		};
-
-// 		window.addEventListener("scroll", onScroll);
-// 	}, []);
-
-// 	const onUpdateActiveLink = (value) => {
-// 		setActiveLink(value);
-// 	};
-
-// 	return (
-// 		<Navbar bg="dark" expand="lg" className={scrolled ? "scrolled" : ""}>
-// 			<Container>
-// 				<Navbar.Brand href="#home">
-// 					<img src={logo} alt="Logo" />
-// 				</Navbar.Brand>
-// 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-// 				<Navbar.Collapse id="basic-navbar-nav">
-// 					<Nav className="me-auto">
-// 						<Nav.Link
-// 							href="#home"
-// 							className={
-// 								activeLink === "home" ? "active navbar-link" : "navbar-link"
-// 							}
-// 							onClick={() => onUpdateActiveLink("home")}
-// 						>
-// 							Home
-// 						</Nav.Link>
-// 						<Nav.Link
-// 							href="#team"
-// 							className={
-// 								activeLink === "team" ? "active navbar-link" : "navbar-link"
-// 							}
-// 							onClick={() => onUpdateActiveLink("team")}
-// 						>
-// 							Team
-// 						</Nav.Link>
-// 						<Nav.Link
-// 							href="#contact"
-// 							className={
-// 								activeLink === "contact" ? "active navbar-link" : "navbar-link"
-// 							}
-// 							onClick={() => onUpdateActiveLink("contact")}
-// 						>
-// 							Contact
-// 						</Nav.Link>
-// 					</Nav>
-// 					<span className="navbar-text">
-// 						<div className="social-icon">
-// 							<a href="#">
-// 								<img src={InstagramIcon} alt="" />
-// 							</a>
-// 							<a href="#">
-// 								<img src={YoutubeIcon} alt="" />
-// 							</a>
-// 							<a href="#">
-// 								<img src={FacebookIcon} alt="" />
-// 							</a>
-// 						</div>
-// 					</span>
-// 				</Navbar.Collapse>
-// 			</Container>
-// 		</Navbar>
-// 	);
-// };
