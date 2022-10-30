@@ -1,5 +1,9 @@
 {
 	"tabWidth": 2,
 	"singleQuote": false,
-	"useTabs": true
+	"useTabs": true,
+
+	"importOrder": ["^components/(.*)$", "^[./]"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
 }
