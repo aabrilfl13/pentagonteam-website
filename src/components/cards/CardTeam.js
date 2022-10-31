@@ -1,7 +1,6 @@
 import React from "react";
-import { AiOutlineInstagram } from "react-icons/ai";
 
-import pentagonLogo from "../../assets/img/PADILLA.png";
+import operatorShadow from "../../assets/img/operator.png";
 import "./cardTeam.css";
 
 function TeamCard() {
@@ -9,7 +8,7 @@ function TeamCard() {
 		<article className="card">
 			<div className="card__front">
 				<div className="image">
-					<img src={pentagonLogo} alt="Pentagon Operator" />
+					<img src={operatorShadow} alt="Pentagon Operator" />
 				</div>
 				<div className="card__name">
 					<h2>OPERATOR</h2>
