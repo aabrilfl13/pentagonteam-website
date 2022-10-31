@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 
-import pentagonLogo from "../../assets/img/PENTAGON-IMAGOTIPO-PENTAGONO-TRANSPARENCY.png";
+import pentagonLogo from "../../assets/img/PADILLA.png";
 import "./cardTeam.css";
 
 function TeamCard() {
