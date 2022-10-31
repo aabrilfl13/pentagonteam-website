@@ -1,7 +1,22 @@
 import React from "react";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 import "./footer.css";
 
 export const Footer = () => {
-	return <div id="footer">Footer</div>;
+	return (
+		<div id="footer">
+			<div className="container footer__container">
+				<div className="footer__socials">
+					<a href="https://github.com/aabrilfl13" target="_blank">
+						<AiOutlineGithub />
+					</a>
+					<a href="https://www.linkedin.com/in/aabrilfl" target="_blank">
+						<AiOutlineLinkedin />
+					</a>
+				</div>
+				<p>Desinged and developed by Antonio Abril</p>
+			</div>
+		</div>
+	);
 };

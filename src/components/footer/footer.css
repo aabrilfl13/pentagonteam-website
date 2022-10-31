@@ -1,0 +1,22 @@
+.container.footer__container {
+	border-top: 0.2rem solid var(--light-bg);
+	text-align: center;
+	margin-top: 20px;
+}
+
+.footer__socials a {
+	font-size: 2.5rem;
+	color: var(--yellow);
+	background-color: var(--light-bg);
+	border-radius: 50%;
+	padding: 1rem;
+	margin: 0 1rem;
+	cursor: pointer;
+}
+
+.container.footer__container p {
+	font-size: 1.7rem;
+	color: var(--dark-gray);
+	margin-top: 0;
+	margin-bottom: 100px;
+}
