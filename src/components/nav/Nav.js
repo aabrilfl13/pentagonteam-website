@@ -1,53 +1,51 @@
 import { React, useState } from "react";
-import {
-	AiOutlineAppstore,
-	AiOutlineBook,
-	AiOutlinePlayCircle,
-	AiOutlineUser,
-} from "react-icons/ai";
+import { AiOutlinePlayCircle, AiOutlineUser } from "react-icons/ai";
+import { GiMoneyStack } from "react-icons/gi";
+import { HiOutlineInformationCircle } from "react-icons/hi";
 import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineMilitaryTech } from "react-icons/md";
 
 import "./nav.css";
 
 export const Nav = () => {
-	const [activeNav, setActiveNav] = useState("#");
+	const [activeNav, setActiveNav] = useState("#header");
 
 	return (
 		<nav>
 			<a
-				href="#"
-				onClick={() => setActiveNav("#")}
-				className={activeNav === "#" ? "active" : ""}
+				href="#header"
+				onClick={() => setActiveNav("#header")}
+				className={activeNav === "#header" ? "active" : ""}
 			>
 				<AiOutlinePlayCircle />
 			</a>
-			<a
+			{/* <a
 				href="#about"
 				onClick={() => setActiveNav("#about")}
 				className={activeNav === "#about" ? "active" : ""}
 			>
 				<AiOutlineUser />
-			</a>
+			</a> */}
 			<a
-				href="#experience"
-				onClick={() => setActiveNav("#experience")}
-				className={activeNav === "#experience" ? "active" : ""}
+				href="#team"
+				onClick={() => setActiveNav("#team")}
+				className={activeNav === "#team" ? "active" : ""}
 			>
-				<AiOutlineBook />
+				<MdOutlineMilitaryTech />
 			</a>
 			<a
 				href="#services"
 				onClick={() => setActiveNav("#services")}
 				className={activeNav === "#services" ? "active" : ""}
 			>
-				<AiOutlineAppstore />
+				<GiMoneyStack />
 			</a>
 			<a
 				href="#contact"
 				onClick={() => setActiveNav("#contact")}
 				className={activeNav === "#contact" ? "active" : ""}
 			>
-				<IoLocationOutline />
+				<HiOutlineInformationCircle />
 			</a>
 		</nav>
 	);
