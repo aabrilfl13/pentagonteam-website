@@ -20,6 +20,21 @@
 	transition: var(--transition);
 }
 
+.contact__option:last-child {
+	padding: 1.2rem 0 0 0;
+}
+
+.contact__option:last-child a {
+	padding-bottom: 1.2rem;
+}
+
+.option__map {
+	width: 100%;
+	height: 350px;
+	border-radius: 0 0 1.2rem 1.2rem;
+	margin-bottom: 0;
+}
+
 .contact__option:hover {
 	background: transparent;
 	border-color: var(--color-primary-variant);
@@ -54,19 +69,18 @@ textarea {
 	color: var(--color-white);
 }
 
-
 /* MEDIA QUERIES */
 /* MEDIA QUERIES (MEDIUM DEVICES) */
-@media screen and (max-width: 1024px){
-  .container.contact__container {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-  }
+@media screen and (max-width: 1024px) {
+	.container.contact__container {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
-@media screen and (max-width: 600px){
-  .container.contact__container {
-    width: var(--container-width-ms);
-}
+@media screen and (max-width: 600px) {
+	.container.contact__container {
+		width: var(--container-width-ms);
+	}
 }
