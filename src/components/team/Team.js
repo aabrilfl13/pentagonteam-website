@@ -1,5 +1,5 @@
 import React from "react";
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -48,10 +48,11 @@ export const Team = () => {
 
 			<Swiper
 				className="container container__team"
-				modules={[Pagination]}
+				modules={[Pagination, Autoplay]}
 				spaceBetween={40}
 				slidesPerView={slidesPerView()}
 				pagination={{ clickable: true }}
+				autoplay={{ delay: 1500 }}
 			>
 				<SwiperSlide className="slides">
 					<CardTeam />
