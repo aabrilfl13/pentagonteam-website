@@ -9,7 +9,7 @@ export const Contact = () => {
 
 	return (
 		<section id="contact">
-			<h2>Contact Us</h2>
+			<h2>Contáctanos</h2>
 
 			<div className="container contact__container">
 				<div className="contact__options">
@@ -33,7 +33,7 @@ export const Contact = () => {
 					<a href="https://maps.app.goo.gl/dLNtHRnAHeQjow4WA" target="_blank">
 						<article className="contact__option">
 							<MdOutlineLocationOn className="contact__option-icon" />
-							<h4>Location</h4>
+							<h4>Localización</h4>
 							<p>Cruce rio Tarafa y, Vinalopo, 03680 Aspe, Alicante</p>
 
 							<iframe

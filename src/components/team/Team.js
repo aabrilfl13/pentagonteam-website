@@ -44,7 +44,8 @@ export const Team = () => {
 
 	return (
 		<section id="team">
-			<h5>OUR TEAM</h5>
+			<h2>Nuestro Equipo</h2>
+			<h5>Operadores</h5>
 
 			<Swiper
 				className="container container__team"
