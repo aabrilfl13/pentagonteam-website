@@ -15,12 +15,12 @@ import { Testimonials } from "./components/testimonials/Testimonials";
 function App() {
 	return (
 		<div className="App">
-			<Nav />
+			{/* <Nav /> */}
 
 			<Header />
 			{/* <About /> */}
-			<Team />
 			<Services />
+			<Team />
 			{/* <Portfolio /> */}
 			{/* <Testimonials /> */}
 			<Contact />
