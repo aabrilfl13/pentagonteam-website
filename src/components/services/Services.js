@@ -12,41 +12,99 @@ export const Services = () => {
 			<div className="container container__services">
 				<article className="service">
 					<div className="service__head">
-						<h3>Alquiler de equipo</h3>
+						<h3>Partidas públicas</h3>
 					</div>
 
 					<ul className="service__list">
 						<li>
-							<BiBadgeCheck className="service__list-icon" />
-							<p>Alquiler de réplica</p>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>
+								Ven a nuestro campo en las partidas públicas que organizamos
+							</p>
 						</li>
 						<li>
-							<BiBadgeCheck className="service__list-icon" />
-							<p>Máscara</p>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Guiones dinámicos y divertidos</p>
 						</li>
 						<li>
-							<BiBadgeCheck className="service__list-icon" />
-							<p>Gafas de protección</p>
-						</li>
-						<li>
-							<BiBadgeCheck className="service__list-icon" />
-							<p>Munición infinita</p>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Guiones dinámicos y divertidos</p>
 						</li>
 					</ul>
 				</article>
 				<article className="service">
 					<div className="service__head">
-						<h3>Suministros</h3>
+						<h3>Partidas privadas</h3>
 					</div>
 
 					<ul className="service__list">
 						<li>
-							<BiBadgeCheck className="service__list-icon" />
-							<p>Bebida</p>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Celebra tu cumpleaños</p>
 						</li>
 						<li>
-							<BiBadgeCheck className="service__list-icon" />
-							<p>Almuerzo</p>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Eventos de trabajo</p>
+						</li>
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Juega solo con tus amigos</p>
+						</li>
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Entrena con tu equipo</p>
+						</li>
+					</ul>
+				</article>
+				<article className="service">
+					<div className="service__head">
+						<h3>Alquiler equipación</h3>
+					</div>
+
+					<ul className="service__list">
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Réplica marcadora airsoft</p>
+						</li>
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Gafas protección ocular</p>
+						</li>
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Protección facial (opcional)</p>
+						</li>
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Chaleco táctico</p>
+						</li>
+						<li>
+							<div className="service__list-icon">
+								<BiBadgeCheck />
+							</div>
+							<p>Munición infinita durante toda la partida</p>
 						</li>
 					</ul>
 				</article>
