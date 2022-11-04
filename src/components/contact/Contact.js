@@ -5,7 +5,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import "./contact.css";
 
 export const Contact = () => {
-	const MAIL = "ayuda@pentagonteam.es";
+	const MAIL = "info@pentagonteam.es";
 
 	return (
 		<section id="contact">
@@ -13,6 +13,13 @@ export const Contact = () => {
 
 			<div className="container contact__container">
 				<div className="contact__options">
+					<a href="mailto:info@pentagonteam.es" target="_blank">
+						<article className="contact__option">
+							<AiOutlineMail className="contact__option-icon" />
+							<h2>Email</h2>
+							<p>{MAIL}</p>
+						</article>
+					</a>
 					<a
 						href="https://chat.whatsapp.com/CKHjz5SOWvfKQyrm14ifai"
 						target="_blank"
@@ -20,20 +27,13 @@ export const Contact = () => {
 						<article className="contact__option">
 							<AiOutlineWhatsApp className="contact__option-icon" />
 							<h4>WhatsApp</h4>
-							<p>Únete a nuestro grupo para estar enterado al momento</p>
-						</article>
-					</a>
-					<a href="mailto:ayuda@pentagonteam.es" target="_blank">
-						<article className="contact__option">
-							<AiOutlineMail className="contact__option-icon" />
-							<h2>Email</h2>
-							<p>{MAIL}</p>
+							<p>Únete a nuestro grupo para estar actualizado al momento</p>
 						</article>
 					</a>
 					<a href="https://maps.app.goo.gl/dLNtHRnAHeQjow4WA" target="_blank">
 						<article className="contact__option">
 							<MdOutlineLocationOn className="contact__option-icon" />
-							<h4>Localización</h4>
+							<h4>Localización Campo</h4>
 							<p>Cruce rio Tarafa y, Vinalopo, 03680 Aspe, Alicante</p>
 
 							<iframe
