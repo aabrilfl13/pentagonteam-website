@@ -1,0 +1,36 @@
+.container.container__header {
+	height: 100vh;
+	padding: 0;
+}
+
+.image__header {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	opacity: 0.25;
+}
+
+.container__header video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	opacity: 0.25;
+	z-index: -1;
+}
+
+/* @media screen and (max-width: 1024px) {
+	.container__header {
+		background-size: 60vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container__header {
+		background-size: 45vh;
+	}
+} */
