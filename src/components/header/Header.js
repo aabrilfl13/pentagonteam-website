@@ -8,7 +8,7 @@ import "./header.css";
 export const Header = () => {
 	return (
 		<header id="header">
-			<video autoPlay loop muted>
+			<video autoPlay loop muted playsInline>
 				<source src={videoHeader} type="video/mp4" />
 			</video>
 			<div className="container container__header">
