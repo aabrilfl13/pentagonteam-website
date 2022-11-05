@@ -12,11 +12,17 @@
 }
 
 :root {
-	--color-bg: rgb(22, 26, 4);
-	--color-bg-variant: #1b1c04;
-	--color-primary: #a99800;
-	--color-primary-variant: rgba(228, 255, 77, 0.4);
-	--colort-withe: #fff;
+	--color-bg: #333333;
+	--color-bg-variant: #111111;
+	--color-primary: rgb(211, 189, 46);
+	--color-primary-gradient: linear-gradient(
+		90deg,
+		rgba(254, 216, 0, 0) 0%,
+		rgba(236, 205, 19, 0.21) 65%,
+		rgba(211, 189, 46, 1) 100%
+	);
+	--color-primary-variant: rgba(148, 132, 46, 0.4);
+	--colort-withe: #ffffff;
 	--color-light: rgba(255, 255, 255, 0.6);
 
 	--transition: all 400ms ease;
