@@ -39,12 +39,7 @@
 	bottom: 30px;
 	right: 0px;
 	padding: 0px 10px;
-	background: linear-gradient(
-		90deg,
-		rgba(47, 47, 0, 0) 0%,
-		rgba(36, 36, 0, 0.602880658436214) 41%,
-		rgba(36, 36, 0, 1) 100%
-	);
+	background: var(--color-primary-gradient);
 }
 
 .card__back {
