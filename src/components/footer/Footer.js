@@ -6,7 +6,10 @@ import "./footer.css";
 export const Footer = () => {
 	return (
 		<div id="footer">
-			<div className="container footer__container">
+			<br />
+			<br />
+			<div className="footer__container">
+				Desinged and developed by Antonio Abril
 				<div className="footer__socials">
 					<a href="https://github.com/aabrilfl13" target="_blank">
 						<AiOutlineGithub />
@@ -15,7 +18,6 @@ export const Footer = () => {
 						<AiOutlineLinkedin />
 					</a>
 				</div>
-				<p>Desinged and developed by Antonio Abril</p>
 			</div>
 		</div>
 	);

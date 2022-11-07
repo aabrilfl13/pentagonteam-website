@@ -1,22 +1,25 @@
-.container.footer__container {
-	border-top: 0.2rem solid var(--light-bg);
-	text-align: center;
-	margin-top: 20px;
+.footer__container {
+	position: relative;
+	height: auto;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.792);
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+
+	display: flex;
+	font-size: 0.7rem;
 }
 
 .footer__socials a {
-	font-size: 2.5rem;
 	color: var(--yellow);
 	background-color: var(--light-bg);
 	border-radius: 50%;
-	padding: 1rem;
 	margin: 0 1rem;
 	cursor: pointer;
 }
 
 .container.footer__container p {
-	font-size: 1.7rem;
 	color: var(--dark-gray);
-	margin-top: 0;
-	margin-bottom: 100px;
+	text-align: center;
 }
