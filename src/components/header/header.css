@@ -5,7 +5,7 @@
 }
 
 .container.container__header .image__header {
-	width: 65%;
+	width: 50vw;
 	min-height: 70%;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	position: absolute;
@@ -16,9 +16,8 @@
 }
 
 .container.container__header .image__header img {
-	opacity: 0.25;
-	width: 80%;
-	height: 100%;
+	opacity: 0.5;
+
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -27,9 +26,7 @@
 }
 
 .container.container__header .header__socials {
-	width: 90%;
-	padding-top: 5px;
-	padding-bottom: 0px;
+	width: 100%;
 	border-radius: 1rem;
 	transform: translate(-50%, -10%);
 	left: 50%;
@@ -42,7 +39,7 @@
 .container.container__header .action_button__header {
 	position: absolute;
 	bottom: 1rem;
-	width: 90%;
+	width: 100%;
 	border-radius: 1rem;
 	background: var(--color-primary);
 	padding: 8px;
@@ -52,6 +49,11 @@
 	text-decoration: none;
 	text-align: center;
 	font-size: 1.2rem;
+	opacity: 0.8;
+}
+
+.container.container__header .action_button__header:hover {
+	opacity: 1;
 }
 
 header video {

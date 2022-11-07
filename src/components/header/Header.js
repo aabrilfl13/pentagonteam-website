@@ -1,6 +1,6 @@
 import React from "react";
 
-import logoHeader from "../../assets/img/PENTAGON-IMAGOTIPO-PENTAGONO-TRANSPARENCY.png";
+import logoHeader from "../../assets/img/LOGO-IMAGOTIPO-01.png";
 import videoHeader from "../../assets/img/portada.mp4";
 import SocialMedia from "../floating/SocialMedia";
 import "./header.css";

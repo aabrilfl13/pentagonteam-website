@@ -1,25 +1,22 @@
 .header__socials .icon__socials {
-	margin: 0 6%;
 	display: inline-block;
-
+	margin: auto;
 	background: transparent;
 	border-radius: 50%;
 	color: var(--color-light);
-	opacity: 90%;
+	opacity: 0.7;
 }
 
 .header__socials .icon__socials:first-child {
-	margin-right: 5%;
 	margin-left: 0%;
 }
 
 .header__socials .icon__socials:last-child {
 	margin-right: 0%;
-	margin-left: 5%;
 }
 
 .header__socials .icon__socials:hover {
-	opacity: 100%;
+	opacity: 1;
 }
 
 .header__socials .icon__socials img {
