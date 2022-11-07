@@ -18,7 +18,7 @@ export const Header = () => {
 				</div>
 
 				<a href="#" className="action_button__header">
-					INSCRIBETE
+					INSCRIBETE A LA PARTIDA
 				</a>
 			</div>
 		</header>
