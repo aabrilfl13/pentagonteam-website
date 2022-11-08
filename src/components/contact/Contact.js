@@ -39,10 +39,10 @@ export const Contact = () => {
 							<iframe
 								className="option__map"
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104040.5682139701!2d-0.7252232625978818!3d38.313443228797794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63c9b0b9b5a1e5%3A0xd07bc39f708e11b9!2sPentagon%20Airsoft%20Camp!5e0!3m2!1ses!2ses!4v1613258061619!5m2!1ses!2ses"
-								frameborder="0"
-								allowfullscreen="1"
-								aria-hidden="false"
-								tabindex="0"
+								frameBorder={0}
+								allowFullScreen={true}
+								aria-hidden={false}
+								tabIndex={0}
 							/>
 						</article>
 					</a>
