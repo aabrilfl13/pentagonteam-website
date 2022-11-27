@@ -1,16 +1,17 @@
 .service {
 	background: var(--color-bg-variant);
 	border-radius: 1.2rem;
-	border: 1px solid var(--color-primary);
-	height: fit-content;
+	border: none;
+	height: 100%;
 	transition: var(--transition);
+	min-height: 100%;
 }
 
-.service:hover {
+/* .service:hover {
 	background: transparent;
 	border-color: var(--color-primary-variant);
 	cursor: default;
-}
+} */
 
 .service__head {
 	background: var(--color-primary);
@@ -23,6 +24,7 @@
 	color: var(--color-bg);
 	font-size: 1rem;
 	text-align: center;
+	font-weight: bold;
 }
 
 .service__list {
@@ -48,6 +50,6 @@
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
 	.service {
-		height: auto;
+		height: 100%;
 	}
 }

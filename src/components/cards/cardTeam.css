@@ -54,12 +54,12 @@
 	transform: rotateY(-180deg);
 }
 
-.card:hover .card__front {
+/* .card:hover .card__front {
 	transform: rotateY(180deg);
 	box-shadow: none;
-}
+} */
 
-.card:hover .card__back {
+/* .card:hover .card__back {
 	opacity: 1;
 	transform: rotateY(0);
-}
+} */
