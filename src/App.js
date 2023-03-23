@@ -9,6 +9,7 @@ import { Header } from "./components/header/Header";
 import { Nav } from "./components/nav/Nav";
 import { Portfolio } from "./components/portfolio/Portfolio";
 import { Services } from "./components/services/Services";
+import { Sponsors } from "./components/sponsors/Sponsors";
 import { Team } from "./components/team/Team";
 import { Testimonials } from "./components/testimonials/Testimonials";
 
@@ -24,6 +25,7 @@ function App() {
 			{/* <Portfolio /> */}
 			{/* <Testimonials /> */}
 			<Contact />
+			<Sponsors />
 			<Footer />
 		</div>
 	);

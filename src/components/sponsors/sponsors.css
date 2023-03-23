@@ -1,0 +1,27 @@
+#sponsors {
+	background: rgba(0, 0, 0, 0.792);
+}
+
+.container.container__sponsors {
+	width: 100%;
+	padding-bottom: 4rem;
+}
+
+.container.container__sponsors .slides:hover {
+	border-color: yellow;
+}
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+	.container__sponsors {
+		width: var(--container-width-ml);
+	}
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+	.container.container__sponsors {
+		width: var(--container-width-md);
+	}
+}

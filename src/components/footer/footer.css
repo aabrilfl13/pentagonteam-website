@@ -1,25 +1,26 @@
-.footer__container {
-	position: relative;
-	height: auto;
-	width: 100%;
+#footer {
 	background: rgba(0, 0, 0, 0.792);
+	position: relative;
+}
+
+.container .footer__container {
+	width: 100%;
+	position: absolute;
+	height: auto;
+}
+
+.author__container {
 	align-items: center;
 	justify-content: center;
 	padding: 2px;
-
 	display: flex;
 	font-size: 0.7rem;
 }
 
-.footer__socials a {
+.author__container .footer__socials a {
 	color: var(--yellow);
 	background-color: var(--light-bg);
 	border-radius: 50%;
 	margin: 0 1rem;
 	cursor: pointer;
-}
-
-.container.footer__container p {
-	color: var(--dark-gray);
-	text-align: center;
 }
