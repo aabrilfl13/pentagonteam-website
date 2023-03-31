@@ -57,6 +57,7 @@ body {
 
 /* GENERAL STRYLES */
 .container {
+	position: relative;
 	width: var(--container-width-lg);
 	margin: 0 auto;
 }

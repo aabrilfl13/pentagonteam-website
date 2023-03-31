@@ -1,7 +1,8 @@
-.container.container__team {
+/* .container.container__team {
 	width: 100%;
 	padding-bottom: 4rem;
-}
+	z-index: -1;
+} */
 
 /* MEDIA QUERIES */
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -16,4 +17,35 @@
 	.container.container__team {
 		width: var(--container-width-md);
 	}
+}
+
+#team {
+	z-index: -1;
+}
+
+.container__team {
+	padding-bottom: 4rem;
+	z-index: -1;
+}
+
+.hover-layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.5),
+		0px -20px 50px rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+	z-index: 1;
+}
+
+#team {
+	position: relative;
 }

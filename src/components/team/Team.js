@@ -44,6 +44,8 @@ export const Team = () => {
 
 	return (
 		<section id="team">
+			<div className="hover-layer">Soon...</div>
+
 			<h2>Nuestro Equipo</h2>
 
 			<Swiper
