@@ -64,12 +64,12 @@ export const Sponsors = () => {
 				</SwiperSlide>
 				<SwiperSlide className="slides">
 					<a href="#" target="_blank">
-						<img src={ArmycopyIcon} alt="ArmycopyIcon" />
+						<img src={CubyIcon} alt="CubySoft" />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className="slides">
 					<a href="#" target="_blank">
-						<img src={AidaIcon} alt="AidaIcon" />
+						<img src={ArmycopyIcon} alt="ArmycopyIcon" />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className="slides">
@@ -77,9 +77,10 @@ export const Sponsors = () => {
 						<img src={CoreIcon} alt="CoreIcon" />
 					</a>
 				</SwiperSlide>
+
 				<SwiperSlide className="slides">
 					<a href="#" target="_blank">
-						<img src={CubyIcon} alt="CubySoft" />
+						<img src={AidaIcon} alt="AidaIcon" />
 					</a>
 				</SwiperSlide>
 			</Swiper>
