@@ -11,7 +11,7 @@ export const SocialMedia = () => {
 		<div className="header__socials">
 			<a
 				className="icon__socials"
-				href="https://www.instagram.com/pentagon_speedsoft/"
+				href="https://www.instagram.com/pentagonteam.es/"
 				target="_blank"
 			>
 				<img src={InstagramLogo} alt="logo" />

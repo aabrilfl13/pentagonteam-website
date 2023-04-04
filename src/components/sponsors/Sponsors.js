@@ -58,22 +58,22 @@ export const Sponsors = () => {
 				autoplay={{ delay: 2000 }}
 			>
 				<SwiperSlide className="slides">
-					<a href="#" target="_blank">
+					<a href="https://airsoftyequipacionprofesional.com/" target="_blank">
 						<img src={AYEPIcon} alt="AYEPIcon" />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className="slides">
-					<a href="#" target="_blank">
+					<a href="https://cubysoftspeedgear.com/" target="_blank">
 						<img src={CubyIcon} alt="CubySoft" />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className="slides">
-					<a href="#" target="_blank">
+					<a href="https://armycop.es/" target="_blank">
 						<img src={ArmycopyIcon} alt="ArmycopyIcon" />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className="slides">
-					<a href="#" target="_blank">
+					<a href="https://core-airsoft.com/" target="_blank">
 						<img src={CoreIcon} alt="CoreIcon" />
 					</a>
 				</SwiperSlide>
