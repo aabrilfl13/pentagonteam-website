@@ -17,7 +17,10 @@ export const Header = () => {
 					<img src={logoHeader} alt="logo" />
 				</div>
 
-				<a href="#" className="action_button__header">
+				<a
+					href="https://rebrand.ly/pentagonteamform"
+					className="action_button__header"
+				>
 					¡Apúntate a la siguiente partida!
 				</a>
 			</div>
