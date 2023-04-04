@@ -7,7 +7,41 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { CardService } from "../cards/CardService";
 import "./services.css";
 
+function debounce(fn, ms) {
+	let timer;
+	return (_) => {
+		clearTimeout(timer);
+		timer = setTimeout((_) => {
+			timer = null;
+			fn.apply(this, arguments);
+		}, ms);
+	};
+}
+
 export const Services = () => {
+	const [dimensions, setDimensions] = React.useState({
+		width: window.innerWidth,
+	});
+	React.useEffect(() => {
+		const debouncedHandleResize = debounce(function handleResize() {
+			setDimensions({
+				width: window.innerWidth,
+			});
+		}, 1000);
+
+		window.addEventListener("resize", debouncedHandleResize);
+
+		return (_) => {
+			window.removeEventListener("resize", debouncedHandleResize);
+		};
+	});
+
+	let slidesPerView = () => {
+		if (dimensions.width <= 600) return 1;
+		else if (dimensions.width <= 1100) return 2;
+		else return 3;
+	};
+
 	return (
 		<section id="services">
 			<h2>Servicios</h2>
@@ -17,7 +51,7 @@ export const Services = () => {
 				className="container container__services"
 				modules={[Autoplay, Pagination]}
 				spaceBetween={40}
-				slidesPerView={1.2}
+				slidesPerView={slidesPerView()}
 				pagination={{ clickable: true }}
 				autoplay={{ delay: 3000 }}
 			>
