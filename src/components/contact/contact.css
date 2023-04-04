@@ -1,5 +1,5 @@
 .container.contact__container {
-	width: 60%;
+	width: var(--container-width-lg);
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 	gap: 12%;
@@ -70,6 +70,7 @@ textarea {
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
 	.container.contact__container {
+		width: var(--container-width-md);
 		grid-template-columns: 1fr;
 		gap: 2rem;
 	}

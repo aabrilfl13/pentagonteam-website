@@ -44,7 +44,7 @@ export const Team = () => {
 
 	return (
 		<section id="team">
-			<div className="hover-layer">Soon...</div>
+			<div className="hover-layer">PRÓXIMAMENTE...</div>
 
 			<h2>Nuestro Equipo</h2>
 
