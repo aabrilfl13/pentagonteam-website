@@ -18,7 +18,7 @@ export const Header = () => {
 				</div>
 
 				<a
-					href="https://rebrand.ly/pentagonteamform"
+					href="http://partida.pentagonteam.es/"
 					className="action_button__header"
 				>
 					¡Apúntate a la siguiente partida!

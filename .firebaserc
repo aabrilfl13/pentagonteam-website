@@ -1,5 +1,6 @@
 {
-  "projects": {
-    "default": "itg-pentagonteam-website"
-  }
+	"projects": {
+		"default": "itg-pentagonteam-website",
+		"pro": "pentagonteam-website"
+	}
 }
